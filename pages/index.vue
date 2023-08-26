@@ -1,3 +1,6 @@
+<template>
+  <div>
+      
 <!DOCTYPE html>
 <html class="no-js" lang="">
 
@@ -288,4 +291,5 @@
 
 </html>
 
- 
+ </div>
+</template>
