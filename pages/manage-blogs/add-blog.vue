@@ -1,6 +1,0 @@
-<template>
-   <Header />
-  <CreateBlog />
-</template>
-
-

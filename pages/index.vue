@@ -14,7 +14,7 @@
 <section>
     <div class="container-fluid text-black d-none d-md-block ">
         <div class="row min-vh-100" style="background-image: url('/images/coming-soon.jpg'); background-size: cover;background-position: center;  background-repeat: no-repeat;">
-            <div class="col-xl-5 col-lg-7 col-md-7 p-5 p-lg-4 d-flex align-items-center" style="background-color: rgba(255, 255, 255, 0.5); height: 91vh !important;">
+            <div class="col-xl-5 col-lg-7 col-md-7 p-5 p-lg-4 d-flex align-items-center" style="background-color: rgba(255, 255, 255, 0.5); height: 100vh !important;">
                 <div class="mt-5 pl-5 ml-5">
                     <h1 class="text-uppercase h1">Coming Soon</h1>
                    <p> <img src="/images/logo.jpg" alt="companylogo"></p>
