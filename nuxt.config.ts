@@ -7,7 +7,9 @@ export default defineNuxtConfig({
     "@":resolve(__dirname,"/")
   },
   css:[
-    "~/assets/css/main.css"
+    "~/assets/css/bootstrap.min.css",
+    "~/assets/css/main.css",
+   
   ],
   postcss: {
     plugins: {
