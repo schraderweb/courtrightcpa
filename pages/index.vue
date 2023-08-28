@@ -17,7 +17,7 @@
             <div class="col-xl-5 col-lg-7 col-md-7 p-5 p-lg-4 d-flex align-items-center" style="background-color: rgba(255, 255, 255, 0.5); height: 100vh !important;">
                 <div class="mt-5 pl-5 ml-5">
                     <h1 class="text-uppercase h1">Coming Soon</h1>
-                   <p> <img src="/images/logo.jpg" alt="companylogo"></p>
+                  <!-- <p> <img src="/images/logo.jpg" alt="companylogo"></p> -->
                     <h2 class="h5"> Courtright Accounting Solutions LLC</h2>
                     <p class="lead display-5" style="color: #0b0b0b; font-weight: bold;">
                         Call Us Today At (231) 409-1834
