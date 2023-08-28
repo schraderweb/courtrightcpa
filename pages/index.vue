@@ -6,7 +6,7 @@
             <div class="col-xl-5 col-lg-7 col-md-7 p-5 p-lg-4 d-flex align-items-center" style="background-color: rgba(255, 255, 255, 0.5); height: 91vh !important;">
                 <div class="mt-5 pl-5 ml-5">
                     <h1 class="text-uppercase">Coming Soon</h1>
-                    <p> <img src="/images/logo.jpg" alt="companylogo"></p>
+                  <!--  <p> <img src="/images/logo.jpg" alt="companylogo"></p> -->
                     <h2>Courtright Accounting Solutions LLC</h2>
                     <p class="lead display-4" style="color: #0b0b0b">
                         Call Us Today At (231) 409-1834
@@ -37,7 +37,7 @@
             <div class="col-xl-4 col-lg-5 col-md-4 col-sm-12 p-5 p-lg-4 d-flex align-items-center text-center bg-light" style=" ">
                 <div class="mt-5">
                     <h1 class="text-uppercase mb-3">Coming Soon</h1>
-                    <p> <img src="/images/logo.jpg" alt="companylogo"></p>
+                  <!--  <p> <img src="/images/logo.jpg" alt="companylogo"></p> -->
                     <h2 class="mb-4">Courtright Accounting Solutions LLC</h2>
                     <p class="lead display-4 text-white mt-3 " style="width: 360px">
                         <a class="btn btn-success p-2 m-3 w-20" href="tel:+2314091834" style="font-size: 0.8em; border-radius: 12px;">
