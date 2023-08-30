@@ -7,6 +7,7 @@
                 <div class="mt-5 pl-5 ml-5">
                     <h1 class="text-uppercase">Coming Soon</h1>
                     <!-- <p> <img src="/images/logo.jpg" alt="companylogo"></p> -->
+                  <!--  <p> <img src="/images/logo.jpg" alt="companylogo"></p> -->
                     <h2>Courtright Accounting Solutions LLC</h2>
                     <p class="lead display-4" style="color: #0b0b0b">
                         Call Us Today At (231) 409-1834
