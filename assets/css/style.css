@@ -112,6 +112,11 @@ header .main {
     font-size: 1.2rem;
 }
 
+.footer a {
+
+   color:rgb(255, 255, 0);
+}
+
 .mobile-footer {
     display:none;
 }
@@ -192,13 +197,14 @@ header .main {
         align-items: center;
         justify-content: center;
         cursor: pointer;
+     
        
     }
     
     .contact-section a span {
    
        margin-left:8px;
-       font-size:22px;
+       font-size:2rem;
        font-weight:600;
     }
     .mobile-footer {
@@ -218,5 +224,10 @@ header .main {
         color: #ffff;
         font-size: 0.9rem;
         align-items: center;
+    }
+    .mobile-footer a{
+   
+         color:rgb(255, 255, 0);
+
     }
 }
