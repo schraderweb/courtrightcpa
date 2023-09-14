@@ -3,7 +3,6 @@
 <header>
    <div class="main">
     <h1>COMING SOON!</h1>
-    <h3>Courtright Accounting Solutions LLC</h3>
               <img src="/images/logo.png" alt="logo" title="Company Logo" style="max-width: 390px; border: 1px solid #ccc;"> 
    </div>
     </header>
