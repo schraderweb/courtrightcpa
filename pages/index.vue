@@ -10,7 +10,7 @@
        <div class="left-section">
         <h1>COMING SOON</h1>
           <br />
-        <img src="/images/logo.png" alt="logo" title="Company Logo" style="border: 1px solid #ccc;"> 
+        <img src="/images/logo.png" alt="logo" title="Company Logo" style="width: 400px; border: 1px solid #ccc;"> 
         <h3>Courtright Accounting Solutions LLC</h3>
         <p>Call Us Today At (231) 409-1834</p>
        </div>
