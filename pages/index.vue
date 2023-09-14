@@ -9,7 +9,7 @@
     <div class="main-section">
        <div class="left-section">
         <h1>COMING SOON</h1>
-        <img src="images/logo.png" alt="logo" 
+        <img src="./public/images/logo.png" alt="logo" 
         <h3>Courtright Accounting Solutions LLC</h3>
         <p>Call Us Today At (231) 409-1834</p>
        </div>
