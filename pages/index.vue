@@ -2,13 +2,15 @@
 
 <header>
    <div class="main">
-    <h1>COMING SOON!</h1>
+    <h1>New Web Site Coming Soon!</h1>
+
+      <br />
               <img src="/images/logo.png" alt="logo" title="Company Logo" style="max-width: 390px; margin-bottom: -40px; border: 1px solid #ccc;"> 
    </div>
     </header>
     <div class="main-section">
        <div class="left-section">
-        <h1>COMING SOON</h1>
+        <h1>New Web Site Coming Soon!</h1>
           <br />
         <img src="/images/logo.png" alt="logo" title="Company Logo" style="width: 400px; border: 1px solid #ccc;"> 
         <h3>Courtright Accounting Solutions LLC</h3>
