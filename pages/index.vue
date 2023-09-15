@@ -3,7 +3,7 @@
 <header>
    <div class="main">
     <h1>COMING SOON!</h1>
-              <img src="/images/logo.png" alt="logo" title="Company Logo" style="max-width: 390px; bottom-margin: -40px; border: 1px solid #ccc;"> 
+              <img src="/images/logo.png" alt="logo" title="Company Logo" style="max-width: 390px; margin-bottom: -40px; border: 1px solid #ccc;"> 
    </div>
     </header>
     <div class="main-section">
