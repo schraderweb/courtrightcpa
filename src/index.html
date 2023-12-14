@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>{{title}}</title>
+  <meta name="description" content="{{description}}" />
+  <meta name="keywords" content="{{tags}}">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <style>
+    @font-face {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 300;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc9.ttf) format("truetype");
+    }
+
+    @font-face {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 400;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxP.ttf) format("truetype");
+    }
+
+    @font-face {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 500;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc9.ttf) format("truetype");
+    }
+
+    @font-face {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 700;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc9.ttf) format("truetype");
+    }
+
+    @font-face {
+      font-family: "Roboto";
+      font-style: normal;
+      font-weight: 900;
+      src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format("truetype");
+    }
+
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Roboto", sans-serif, Arial, sans-serif;
+    }
+
+    header {
+      display: none;
+    }
+
+    header .main {
+      display: none;
+    }
+
+    .main-section {
+
+      width: 100%;
+      min-height: 100vh;
+      background: url('/images/coming-soon.jpg') no-repeat;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+
+    }
+
+    .left-section {
+      background-color: rgba(255, 255, 255, 0.5);
+      width: 40%;
+      height: 90vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      justify-items: center;
+      text-align: left;
+      padding-left: 3%;
+      padding-right: 2%;
+    }
+
+    .left-section h1 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .left-section img {
+      margin-bottom: 30px;
+    }
+
+    .left-section h3 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+    }
+
+    .left-section p {
+      font-size: 2.4rem;
+      font-weight: 200;
+      color: #0b0b0b;
+    }
+
+
+    .footer {
+
+      display: block;
+      width: 100%;
+      height: 10vh;
+      background-color: #0b0b0b93;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+    }
+
+    .footer p {
+      margin: 0;
+      padding: 0.5rem;
+      text-align: center;
+      color: #ffff;
+      font-size: 1.2rem;
+    }
+
+    .footer a {
+
+      color: rgb(255, 255, 0);
+    }
+
+    .contact-section {
+      display: none;
+    }
+
+    .mobile-footer {
+      display: none;
+    }
+
+    @media(max-width:700px) {
+      header {
+        display: block;
+        width: 100%;
+        height: 200px;
+        background-color: #ffff;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      header .main {
+        position: absolute;
+        display: block;
+        text-align: center;
+
+      }
+
+      header .main h1 {
+
+        font-weight: 600;
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        margin-bottom: 2px;
+
+      }
+
+      header .main h3 {
+        font-weight: 600;
+        font-size: 1.2rem;
+      }
+
+      .main-section {
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        min-height: 500px;
+
+      }
+
+      .left-section {
+        display: none;
+      }
+
+      .left-section h1 {
+        display: none;
+      }
+
+      .left-section img {
+        display: none;
+      }
+
+      .left-section h3 {
+        display: none;
+      }
+
+      .left-section p {
+        display: none;
+      }
+
+      .footer {
+
+        display: none;
+
+
+      }
+
+      .contact-section {
+        width: 100%;
+        height: 100px;
+        background-color: #28a745;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contact-section a {
+        color: #fff;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+
+      }
+
+      .contact-section a span {
+
+        margin-left: 8px;
+        font-size: 2rem;
+        font-weight: 600;
+      }
+
+      .mobile-footer {
+        display: block;
+        width: 100%;
+        height: 10vh;
+        background-color: #1e1e1ebb;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+
+      .mobile-footer p {
+        margin: 0;
+        padding: 0.5rem;
+        text-align: center;
+        color: #ffff;
+        font-size: 0.9rem;
+        align-items: center;
+      }
+
+      .mobile-footer a {
+
+        color: rgb(255, 255, 0);
+
+      }
+    }
+  </style>
+
+</head>
+
+<body>
+  <header>
+    <div class="main">
+      <h1>New Web Site Coming Soon!</h1>
+
+      <br />
+      <img src="/images/logo.png" alt="logo" title="Company Logo"
+        style="max-width: 390px; margin-bottom: -40px; border: 1px solid #ccc;">
+    </div>
+  </header>
+  <div class="main-section">
+    <div class="left-section">
+      <h1>New Web Site Coming Soon!</h1>
+      <br />
+      <img src="/images/logo.png" alt="logo" title="Company Logo" style="width: 400px; border: 1px solid #ccc;">
+      <h3>Courtright Accounting Solutions LLC</h3>
+      <p>Call Us Today At (231) 409-1834</p>
+    </div>
+    <!-- Desktop Footer -->
+    <div class="footer">
+      <p>
+        &copy; 2014-2023
+        Courtright Accounting Solutions LLC | Website developed & hosted by
+        <a href="https://schrader.co" class="text-primary" target="_blank">Schrader Web Solutions</a>
+      </p>
+    </div>
+  </div>
+  <!-- Call Us Section -->
+  <div class="contact-section">
+    <div class="icons-section">
+      <a href="tel:2314091834">
+        <svg style="color: white" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24"
+          fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="feather feather-phone-call">
+          <path
+            d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+            fill="white"></path>
+        </svg>
+        <span class="">Click To Call Us </span>
+      </a>
+    </div>
+
+  </div>
+  <!-- Mobile Footer -->
+  <div class="mobile-footer">
+    <p>
+      &copy; 2014-2023
+      Courtright Accounting Solutions LLC | Website developed & hosted by
+      <a href="https://schrader.co" class="text-primary" target="_blank">Schrader Web Solutions</a>
+    </p>
+  </div>
+</body>
+
+</html>
