@@ -2876,7 +2876,15 @@ header.header {
 }
 
 .logo-area a {
-  display: block;
+  display: flex;
+  justify-content: center;
+}
+
+
+.logo-area img {
+  max-height: 80px;
+  height: 100%;
+  width: auto;
 }
 
 .header-menu {
@@ -3685,12 +3693,17 @@ div#wrapper.open>.offcanvas-mask {
   box-sizing: border-box;
 }
 
+.mean-container .mean-bar a.logo-mobile img {
+  height: 50px;
+  width: auto;
+  margin: 1rem;
+}
+
 .mean-container .mean-bar .mobile-menu-nav-back {
   padding-left: 15px;
   border-bottom: 1px solid #b2b2b2;
   position: relative;
   text-align: center;
-  height: 50px;
   display: flex;
   align-items: center;
 }
@@ -3770,8 +3783,10 @@ div#wrapper.open>.offcanvas-mask {
 .mean-container a.meanmenu-reveal {
   float: none !important;
   position: absolute;
-  top: 0;
   transition: unset;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
   padding: 16px 14px 12px;
 }
 

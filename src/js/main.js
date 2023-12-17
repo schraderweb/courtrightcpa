@@ -255,7 +255,7 @@
   if ($.fn.meanmenu) {
     $("nav#dropdown").meanmenu({
       siteLogo:
-        "<div class='mobile-menu-nav-back'><a class='logo-mobile' href='index.html'><img src='/images/logo-main.jpg' alt='logo' class='img-fluid' width='60px'/></a></div>",
+        "<div class='mobile-menu-nav-back'><a class='logo-mobile' href='index.html'><img src='/images/logo.png' alt='logo' class='img-fluid' width='60px'/></a></div>",
     });
   }
 
