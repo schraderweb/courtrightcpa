@@ -10802,12 +10802,11 @@ div#wrapper.open>.offcanvas-mask {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 50px;
   }
 
   .mobile_mode_section img {
-    max-width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
     object-fit: cover;
   }
 }
