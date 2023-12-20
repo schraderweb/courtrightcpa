@@ -1,27 +1,27 @@
 {
-  "name": "nuxt-app",
+  "name": "courtrightcpa",
   "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "build": "npx eleventy",
+    "start": "npx eleventy --serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schraderweb/courtrightcpa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@nuxt/devtools": "latest",
-    "@types/node": "^18.17.1",
-    "autoprefixer": "^10.4.14",
-    "nuxt": "^3.6.5",
-    "postcss": "^8.4.27"
+    "@11ty/eleventy": "^2.0.1",
+    "date-fns": "^2.30.0"
   },
-  "dependencies": {
-    "@headlessui/vue": "^1.7.15",
-    "@heroicons/vue": "^2.0.18",
-    "@vueup/vue-quill": "^1.2.0",
-    "bootstrap": "^5.3.1",
-    "firebase": "^10.1.0",
-    "quill-blot-formatter": "^1.0.5",
-    "quill-image-uploader": "^1.3.0"
-  }
+  "bugs": {
+    "url": "https://github.com/schraderweb/courtrightcpa/issues"
+  },
+  "homepage": "https://github.com/schraderweb/courtrightcpa#readme"
 }
