@@ -1,0 +1,42 @@
+---
+layout: layouts/base.html
+title: Courtright Accounting Solutions LLC. | About Us
+description: Learn about Courtright Accounting Solutions, LLC
+---
+
+<section class="blog-wrap-layout3 d-flex align-items-center">
+  <div class="container mt-5">
+    <div class="row mt-5">
+      <div class="col-md-12 col-lg-12">
+        <div class="contact-detail">
+          <h1 class="section-title">About Us</h1>
+
+
+Anna A Courtright, CPA, MBA
+
+Anna Courtright is a Michigan certified public accountant with a master’s degree in business administration, as well as master’s degree in technology.
+
+Anna’s practice is focused on the areas of higher-level individual, estate, trust, and gift taxation. She uses her expertise to guide individuals and families on complex tax strategies to build and preserve wealth.  
+
+She believes it’s important to simplify the complexities of accounting not only to find solutions for her clients, but to make sure they understand the logic and reasoning behind the options presented to them. Anna is committed to fostering strong client relationships through open communication and excellent client service. 
+
+Education
+Certified Public Accountant in Michigan
+Master of Business Administration in Accounting – Baker College
+AICPA & CIMA Estate Planning Certificate
+AICPA & CIMA Investment Planning Certificate
+QuickBooks Online Certified ProAdvisor
+
+Professional Affiliations
+Michigan Association of Certified Public Accountants
+Estate Planning Council of Grand Traverse Area
+
+
+          
+        </div>
+      </div>
+
+    
+    </div>
+  </div>
+</section>
