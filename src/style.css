@@ -10793,14 +10793,28 @@ div#wrapper.open>.offcanvas-mask {
 
 
 @media screen and (max-width: 720px) {
-  .slider-area {
+  /* .slider-area .bend {
     display: none !important;
-  }
+  } */
+
 
   .mobile_mode_section {
     display: flex;
     align-items: center;
     justify-content: center;
+    display: none;
+  }
+  .service-wrap-layout4 {
+    padding: 8px;
+  }
+  .slider-big-text {
+    font-size: 20px !important;
+    text-align: center;
+  }
+  .slider-sub-text {
+    display: block !important;
+    text-align: center;
+    font-size: 17px !important;
   }
 
   .mobile_mode_section img {

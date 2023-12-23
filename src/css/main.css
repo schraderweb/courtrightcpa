@@ -323,3 +323,16 @@ textarea {
        
 }
 
+
+#header-topbar{
+    display: none;
+}
+.nivo-prevNav , .nivo-nextNav {
+    display: none;
+}
+/* @media screen and (max-width: 720px){
+    .slider-area {
+        display: block !important;
+    }
+    .
+} */
