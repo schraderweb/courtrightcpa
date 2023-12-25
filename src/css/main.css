@@ -338,9 +338,19 @@ textarea {
 } */
 
 .title-container {
-    display: flex !important;
+    /* display: flex !important;
     align-items: flex-end !important;
     justify-content: end !important;
     flex-direction: column !important;
-    height: 100% !important;
+    height: 100% !important; */
+
+    display: flex !important;
+  align-items: flex-end !important;
+  justify-content: end !important;
+  flex-direction: column !important;
+  height: auto !important;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
 }
