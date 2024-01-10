@@ -1,4 +1,8 @@
+const format = require('date-fns/format')
 module.exports = function(eleventyConfig) {
+  eleventyConfig.addFilter('date', function (date, dateFormat) {
+    return format(date, dateFormat)
+  });
   eleventyConfig.addPassthroughCopy("src/vendor/");
   eleventyConfig.addPassthroughCopy("src/css/");
   eleventyConfig.addPassthroughCopy("src/font/");
